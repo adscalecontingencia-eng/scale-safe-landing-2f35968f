@@ -31,7 +31,7 @@ const DifferentialsSection = () => {
           <span className="text-primary text-sm font-semibold uppercase tracking-wider">Por que a AD Scale</span>
           <h2 className="font-display text-3xl md:text-5xl font-bold mt-3 mb-4">
             Não somos mais um fornecedor de conta.{" "}
-            <span className="text-gradient">Somos sua blindagem.</span>
+            <span className="text-gradient">Somos sua contingência profissional, deixe sua estrutura nas mãos de quem entende.</span>
           </h2>
         </div>
 
