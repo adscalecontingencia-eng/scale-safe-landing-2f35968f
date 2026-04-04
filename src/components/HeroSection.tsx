@@ -43,7 +43,7 @@ const HeroSection = () => {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
           <a
-            href="https://wa.me/5500000000000"
+            href="https://wa.me/5531998416336?text=Ol%C3%A1%2C%20quero%20blindar%20minha%20opera%C3%A7%C3%A3o%20com%20a%20AD%20Scale.%20Podem%20me%20ajudar%3F"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-gradient-primary text-primary-foreground font-bold px-8 py-4 rounded-lg text-lg transition-all hover:scale-105 animate-pulse-glow"
