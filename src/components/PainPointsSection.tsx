@@ -3,23 +3,23 @@ import { AlertTriangle, Ban, Clock, TrendingDown } from "lucide-react";
 const pains = [
   {
     icon: Ban,
-    title: "Perfis e BMs caindo toda semana",
-    description: "Você perde horas recriando estruturas, pausando campanhas e perdendo dados preciosos de otimização.",
+    title: "Perfil caiu. BM bloqueada. Conta restrita.",
+    description: "Isso não é azar — é falta de estrutura. Enquanto você tenta recriar tudo do zero, seu caixa tá sangrando e seu concorrente tá escalando no seu lugar.",
   },
   {
     icon: TrendingDown,
-    title: "Campanhas parando no melhor momento",
-    description: "Quando a campanha finalmente encontra o público certo, a conta cai e você precisa recomeçar do zero.",
+    title: "Campanha validada e a conta morre",
+    description: "Você investiu tempo, dinheiro e criativo pra achar o público perfeito. Aí a conta cai e você perde o pixel, o histórico e a otimização. Começa do zero. De novo.",
   },
   {
     icon: Clock,
-    title: "Tempo gasto com contingência",
-    description: "Em vez de focar em criativos e escala, você gasta horas gerenciando perfis, aquecendo contas e resolvendo bloqueios.",
+    title: "Seu tempo vale mais do que criar perfil",
+    description: "Produtor e afiliado que fatura alto não deveria perder 3, 4, 5 horas por dia gerenciando contingência. Seu tempo deveria estar em escala, não em sobrevivência.",
   },
   {
     icon: AlertTriangle,
-    title: "Risco de perder o faturamento",
-    description: "Cada dia sem rodar é dinheiro na mesa. Uma queda inesperada pode custar dezenas de milhares em vendas perdidas.",
+    title: "Cada dia parado são milhares perdidos",
+    description: "Se você roda R$10k, R$50k, R$100k por dia e fica 48h sem rodar, faça a conta. Essa é a realidade de quem não tem contingência profissional.",
   },
 ];
 
@@ -28,12 +28,13 @@ const PainPointsSection = () => {
     <section className="section-padding">
       <div className="container max-w-6xl">
         <div className="text-center mb-16">
-          <span className="text-primary text-sm font-semibold uppercase tracking-wider">O problema</span>
+          <span className="text-primary text-sm font-semibold uppercase tracking-wider">A realidade que ninguém fala</span>
           <h2 className="font-display text-3xl md:text-5xl font-bold mt-3 mb-4">
-            Você conhece essa <span className="text-gradient">dor</span>
+            Você tá <span className="text-gradient">perdendo dinheiro</span> todo dia
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Se você roda nutra ou infoprodutos no Meta, sabe que a maior ameaça ao seu faturamento não é o criativo — é a estrutura.
+            Se você roda nutra ou info no Meta e não tem contingência blindada, 
+            não é questão de "se" vai parar — é questão de "quando".
           </p>
         </div>
 

@@ -1,3 +1,4 @@
+import logo from "@/assets/logo-adscale.png";
 import { ArrowRight, Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
 
@@ -19,9 +20,8 @@ const Navbar = () => {
     >
       <div className="container max-w-6xl flex items-center justify-between px-4">
         {/* Logo */}
-        <a href="#" className="font-display text-2xl font-bold">
-          <span className="text-gradient">AD</span>{" "}
-          <span className="text-foreground">SCALE</span>
+        <a href="#" className="flex items-center gap-2">
+          <img src={logo} alt="AD Scale" className="h-10 w-auto" />
         </a>
 
         {/* Desktop links */}
@@ -39,9 +39,9 @@ const Navbar = () => {
             href="https://wa.me/5500000000000"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-gradient-primary text-primary-foreground font-semibold px-5 py-2.5 rounded-lg text-sm transition-all hover:scale-105"
+            className="inline-flex items-center gap-2 bg-gradient-primary text-primary-foreground font-bold px-5 py-2.5 rounded-lg text-sm transition-all hover:scale-105"
           >
-            Começar agora
+            QUERO ESCALAR
             <ArrowRight className="w-4 h-4" />
           </a>
         </div>
@@ -71,9 +71,9 @@ const Navbar = () => {
             href="https://wa.me/5500000000000"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-gradient-primary text-primary-foreground font-semibold px-5 py-2.5 rounded-lg text-sm w-full justify-center"
+            className="inline-flex items-center gap-2 bg-gradient-primary text-primary-foreground font-bold px-5 py-2.5 rounded-lg text-sm w-full justify-center"
           >
-            Começar agora
+            QUERO ESCALAR
             <ArrowRight className="w-4 h-4" />
           </a>
         </div>

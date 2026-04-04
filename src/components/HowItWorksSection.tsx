@@ -1,23 +1,23 @@
 const steps = [
   {
     number: "01",
-    title: "Entre em contato",
-    description: "Fale com nosso time pelo WhatsApp. Vamos entender seu volume e sua operação.",
+    title: "Fale com nosso time",
+    description: "Manda uma mensagem no WhatsApp. Em minutos nosso time entende seu volume, seu nicho e monta o plano ideal pra sua operação.",
   },
   {
     number: "02",
-    title: "Receba sua estrutura",
-    description: "Montamos toda a estrutura de contas, perfis e BMs necessária para sua operação rodar.",
+    title: "Setup da sua estrutura",
+    description: "Montamos toda a estrutura — contas, perfis, BMs — tudo aquecido e pronto pra rodar pesado. Você paga a taxa de setup e já começa.",
   },
   {
     number: "03",
-    title: "Rode e escale",
-    description: "Suba seus criativos e escale sem limites. Se algo cair, repomos em minutos.",
+    title: "Suba seus criativos e escale",
+    description: "Sua única preocupação é criativo e escala. Bloqueou? Caiu? Nós repomos em minutos. Sua operação nunca para.",
   },
   {
     number: "04",
     title: "Pague pela performance",
-    description: "Você paga apenas uma porcentagem do gasto em ads. Sem mensalidade fixa, sem surpresas.",
+    description: "Modelo simples: taxa de setup + porcentagem do gasto em ads. Quanto mais você escala, mais faz sentido. Sem pegadinha, sem surpresa.",
   },
 ];
 
@@ -26,12 +26,12 @@ const HowItWorksSection = () => {
     <section className="section-padding bg-secondary/30">
       <div className="container max-w-5xl">
         <div className="text-center mb-16">
-          <span className="text-primary text-sm font-semibold uppercase tracking-wider">Processo</span>
+          <span className="text-primary text-sm font-semibold uppercase tracking-wider">Como funciona</span>
           <h2 className="font-display text-3xl md:text-5xl font-bold mt-3 mb-4">
-            Simples como deve ser
+            Do zero à escala em <span className="text-gradient">4 passos</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-            Em poucos passos você tem tudo pronto para escalar.
+            Sem burocracia, sem enrolação. Você fala, a gente monta, você escala.
           </p>
         </div>
 
