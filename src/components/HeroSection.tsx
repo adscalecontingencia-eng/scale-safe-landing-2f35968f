@@ -19,10 +19,6 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 container max-w-5xl text-center px-4 pt-28 pb-16">
-        {/* Logo */}
-        <div className="flex justify-center mb-8 animate-fade-in-up">
-          <img src={logo} alt="AD Scale" className="h-20 md:h-28 w-auto" />
-        </div>
 
         {/* Badge */}
         <div className="inline-flex items-center gap-2 glass rounded-full px-5 py-2 mb-8 animate-fade-in-up" style={{ animationDelay: "0.05s" }}>
