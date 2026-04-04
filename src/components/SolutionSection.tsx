@@ -42,11 +42,11 @@ const SolutionSection = () => {
         <div className="text-center mb-16">
           <span className="text-primary text-sm font-semibold uppercase tracking-wider">A solução definitiva</span>
           <h2 className="font-display text-3xl md:text-5xl font-bold mt-3 mb-4">
-            A AD Scale <span className="text-gradient">blinda</span> sua operação
+            Com a AD Scale sua operação <span className="text-gradient">muda de patamar</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             Alugue contas de anúncio com a infraestrutura de contingência mais completa do mercado. 
-            Pague apenas uma % do gasto em ads + taxa de setup. Simples assim.
+            Pague apenas uma pequena % do gasto em ads + taxa de setup. Simples assim.
           </p>
         </div>
 
