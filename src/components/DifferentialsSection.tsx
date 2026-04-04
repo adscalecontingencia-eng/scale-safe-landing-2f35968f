@@ -3,23 +3,23 @@ import { ArrowRight, Building2, HeadphonesIcon, Layers, Target } from "lucide-re
 const differentials = [
   {
     icon: Layers,
-    title: "Contingência é com a gente",
-    description: "Diferente de quem apenas aluga contas, nós gerenciamos toda a estrutura de contingência. Perfis, BMs, contas — tudo ilimitado e sob nossa responsabilidade.",
+    title: "Contingência é responsabilidade NOSSA",
+    description: "Outros te alugam uma conta e te desejam boa sorte. Na AD Scale, toda a estrutura de contingência — perfis, BMs, contas — é gerenciada pelo nosso time. Caiu? Problema nosso. Você não perde 1 minuto.",
   },
   {
     icon: Target,
-    title: "Foco em quem roda pesado",
-    description: "Nosso serviço é feito para operações validadas que precisam de volume. Se você já gasta R$50k+ por mês em ads, a AD Scale foi feita pra você.",
+    title: "Feito pra quem já fatura alto",
+    description: "Não atendemos iniciantes. Nosso serviço é pra produtores, afiliados e infoprodutores que já têm operação validada e precisam de estrutura pra escalar sem teto. Se você gasta R$50k+ por mês, a conversa é com a gente.",
   },
   {
     icon: HeadphonesIcon,
-    title: "Suporte que entende sua operação",
-    description: "Nosso time entende de mídia paga e contingência. Não é um suporte genérico — é um parceiro que sabe o que sua operação precisa.",
+    title: "Suporte que fala a sua língua",
+    description: "Nosso time vive no mundo de ads. Entende contingência, entende bloqueio, entende a pressão de ter uma operação parada. Nada de ticket genérico — aqui é suporte direto, rápido e que resolve.",
   },
   {
     icon: Building2,
-    title: "Modelo justo e escalável",
-    description: "Você paga uma % do que gasta na conta. Quanto mais você escala, mais sentido faz. Sem taxas fixas, sem setup fee.",
+    title: "Modelo transparente e escalável",
+    description: "Taxa de setup pra montar sua estrutura + porcentagem do gasto na conta. Sem mensalidade escondida, sem multa, sem contrato absurdo. Quanto mais você escala, mais a AD Scale faz sentido.",
   },
 ];
 
@@ -28,10 +28,10 @@ const DifferentialsSection = () => {
     <section className="section-padding">
       <div className="container max-w-6xl">
         <div className="text-center mb-16">
-          <span className="text-primary text-sm font-semibold uppercase tracking-wider">Diferenciais</span>
+          <span className="text-primary text-sm font-semibold uppercase tracking-wider">Por que a AD Scale</span>
           <h2 className="font-display text-3xl md:text-5xl font-bold mt-3 mb-4">
-            Por que a AD Scale é{" "}
-            <span className="text-gradient">diferente</span>
+            Não somos mais um fornecedor de conta.{" "}
+            <span className="text-gradient">Somos sua blindagem.</span>
           </h2>
         </div>
 
@@ -41,7 +41,6 @@ const DifferentialsSection = () => {
               key={i}
               className="glass rounded-xl p-8 transition-all hover:border-primary/30 group relative overflow-hidden"
             >
-              {/* Subtle glow */}
               <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity" />
 
               <div className="relative z-10">
@@ -65,9 +64,9 @@ const DifferentialsSection = () => {
             href="https://wa.me/5500000000000"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-gradient-primary text-primary-foreground font-semibold px-8 py-4 rounded-lg text-lg transition-all hover:scale-105 animate-pulse-glow"
+            className="inline-flex items-center gap-2 bg-gradient-primary text-primary-foreground font-bold px-8 py-4 rounded-lg text-lg transition-all hover:scale-105 animate-pulse-glow"
           >
-            Falar com o time AD Scale
+            QUERO FALAR COM O TIME AD SCALE
             <ArrowRight className="w-5 h-5" />
           </a>
         </div>

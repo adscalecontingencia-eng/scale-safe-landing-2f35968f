@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Para quem é a AD Scale?",
-    answer: "A AD Scale é para players que já possuem operações validadas em nutraceuticos e infoprodutos no Meta Ads e precisam escalar com segurança. Ideal para quem já gasta R$50k+ por mês em anúncios.",
+    question: "Pra quem é a AD Scale?",
+    answer: "Pra produtores, afiliados e infoprodutores que já têm operação validada rodando nutra e infoprodutos no Meta Ads. Se você já gasta R$50k+ por mês em anúncios e precisa de estrutura pra escalar, a AD Scale é pra você.",
   },
   {
-    question: "Como funciona o modelo de pagamento?",
-    answer: "Você paga uma porcentagem do valor gasto dentro da conta de anúncio. Não existe mensalidade fixa, taxa de setup ou custos ocultos. Quanto mais você investe, mais vantajoso fica.",
+    question: "Qual o modelo de pagamento?",
+    answer: "Cobramos uma taxa de setup para montar toda a sua estrutura (contas, perfis, BMs) + uma porcentagem do valor gasto dentro das contas de anúncio. Sem mensalidade fixa escondida, sem surpresas.",
   },
   {
-    question: "O que acontece se minha conta cair?",
-    answer: "Nós repomos imediatamente. Perfis, BMs e contas de anúncio são repostos em minutos, não dias. Sua operação não para.",
+    question: "O que acontece quando minha conta cai?",
+    answer: "Repomos em minutos. Perfis, BMs e contas de anúncio são repostos imediatamente pela nossa equipe. Sua operação não para — esse é o nosso trabalho.",
   },
   {
-    question: "Quantas contas eu posso ter?",
-    answer: "Não há limite. Fornecemos quantas contas, perfis e BMs sua operação precisar. A estrutura cresce junto com você.",
+    question: "Tem limite de contas?",
+    answer: "Não. Fornecemos quantas contas, perfis e BMs sua operação precisar. Se você precisa de 5 ou 50, nós entregamos. A estrutura cresce junto com a sua operação.",
   },
   {
-    question: "Preciso me preocupar com contingência?",
-    answer: "Não. Esse é justamente nosso diferencial. Toda a gestão de contingência — criação de perfis, aquecimento de contas, gestão de BMs — é responsabilidade nossa.",
+    question: "Eu preciso me preocupar com contingência?",
+    answer: "Zero. Esse é o nosso maior diferencial. Toda a gestão de contingência — criação de perfis, aquecimento de contas, gestão de BMs — é responsabilidade do nosso time. Você só precisa subir criativo e escalar.",
   },
   {
-    question: "Como começo a usar a AD Scale?",
-    answer: "Basta entrar em contato pelo nosso WhatsApp. Nosso time vai entender sua operação e montar toda a estrutura necessária para você começar a rodar rapidamente.",
+    question: "Como começo?",
+    answer: "Manda uma mensagem no WhatsApp. Nosso time entende sua operação em minutos e já monta o plano ideal. Em poucas horas você pode estar com a estrutura rodando.",
   },
 ];
 
@@ -37,7 +37,7 @@ const FAQSection = () => {
     <section className="section-padding bg-secondary/30">
       <div className="container max-w-3xl">
         <div className="text-center mb-16">
-          <span className="text-primary text-sm font-semibold uppercase tracking-wider">FAQ</span>
+          <span className="text-primary text-sm font-semibold uppercase tracking-wider">Dúvidas</span>
           <h2 className="font-display text-3xl md:text-5xl font-bold mt-3 mb-4">
             Perguntas frequentes
           </h2>
