@@ -36,7 +36,7 @@ const HeroSection = () => {
 
         {/* Subheadline */}
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-          Enquanto seu concorrente tá parado recriando BM, você tá escalando com contas ilimitadas, 
+          Enquanto seu concorrente tá parado criando BM do zero e aquecendo, você tá escalando com contas ilimitadas, 
           contingência blindada e reposição em minutos. Chega de perder dinheiro com estrutura frágil.
         </p>
 

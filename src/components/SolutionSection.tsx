@@ -46,7 +46,7 @@ const SolutionSection = () => {
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             Alugue contas de anúncio com a infraestrutura de contingência mais completa do mercado. 
-            Pague apenas uma % do gasto em ads + taxa de setup. Simples assim.
+            Pague apenas uma pequena % do gasto em ads + taxa de setup. Simples assim.
           </p>
         </div>
 

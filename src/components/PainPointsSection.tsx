@@ -33,8 +33,8 @@ const PainPointsSection = () => {
             Você tá <span className="text-gradient">perdendo dinheiro</span> todo dia
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Se você roda nutra ou info no Meta e não tem contingência blindada, 
-            não é questão de "se" vai parar — é questão de "quando".
+            Se você roda nutra ou infoprodutos no Meta e não tem uma contingência profissional, 
+            é questão de tempo para a sua estrutura ficar estagnada.
           </p>
         </div>
 
