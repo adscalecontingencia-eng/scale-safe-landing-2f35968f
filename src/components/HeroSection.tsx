@@ -1,17 +1,17 @@
 import { ArrowRight } from "lucide-react";
-import heroGlobe from "@/assets/hero-globe.png";
+import DotGlobe from "./DotGlobe";
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background effects */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,hsl(125_100%_45%/0.08),transparent_60%)]" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,hsl(125_100%_45%/0.05),transparent_60%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,hsl(125_100%_45%/0.06),transparent_60%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,hsl(125_100%_45%/0.03),transparent_60%)]" />
 
-      <div className="relative z-10 container max-w-6xl px-4 pt-28 pb-16">
-        <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
+      <div className="relative z-10 container max-w-7xl px-4 pt-28 pb-16">
+        <div className="grid md:grid-cols-[1fr_auto] gap-6 lg:gap-10 items-center">
           {/* Left — Copy */}
-          <div>
+          <div className="max-w-xl">
             <div className="badge-pill mb-6 animate-fade-in-up" style={{ animationDelay: "0.05s" }}>
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
               Especialistas em Contingência Meta Ads
@@ -27,7 +27,7 @@ const HeroSection = () => {
             </h1>
 
             <p className="text-muted-foreground text-lg md:text-xl max-w-xl mb-8 leading-relaxed animate-fade-in-up" style={{ animationDelay: "0.25s" }}>
-              Enquanto seu concorrente tá parado criando BM do zero e aquecendo, você tá escalando com contas ilimitadas, contingência blindada e reposição em minutos. Chega de perder dinheiro com estrutura frágil.
+              Se você roda nutra ou infoprodutos no Meta e não tem uma contingência profissional, é questão de tempo para a sua estrutura ficar estagnada.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up" style={{ animationDelay: "0.35s" }}>
@@ -68,19 +68,9 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Right — Globe image */}
-          <div className="hidden md:flex items-center justify-center animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
-            <div className="relative">
-              <img
-                src={heroGlobe}
-                alt="Globo de contingência Meta Ads"
-                width={1024}
-                height={1024}
-                className="w-[380px] lg:w-[480px] h-auto object-contain animate-float"
-              />
-              {/* Glow behind */}
-              <div className="absolute inset-0 bg-primary/10 rounded-full blur-3xl -z-10 scale-75" />
-            </div>
+          {/* Right — Animated Globe */}
+          <div className="hidden md:flex items-center justify-center animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
+            <DotGlobe />
           </div>
         </div>
       </div>
