@@ -30,14 +30,14 @@ const HeroSection = () => {
 
         {/* Headline */}
         <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
-          Sua conta caiu?{" "}
-          <span className="text-gradient">O problema acabou.</span>
+          Você não tem um problema de tráfego.{" "}
+          <span className="text-gradient">Tem uma estrutura que trava seu faturamento.</span>
         </h1>
 
         {/* Subheadline */}
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-          Enquanto seu concorrente tá parado criando BM do zero e aquecendo, você tá escalando com contas ilimitadas, 
-          contingência blindada e reposição em minutos. Chega de perder dinheiro com estrutura frágil.
+          Conta caindo, BM bloqueada e pixel perdido não é azar — é falta de contingência profissional. 
+          Enquanto você recria tudo do zero, seu faturamento congela e seu concorrente escala no seu lugar.
         </p>
 
         {/* CTA Buttons */}
