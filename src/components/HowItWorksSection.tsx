@@ -1,67 +1,84 @@
+import { MessageCircle, Settings, CheckCircle2, TrendingUp } from "lucide-react";
+
 const steps = [
   {
-    number: "01",
-    title: "Fale com nosso time",
-    description: "Manda uma mensagem no WhatsApp. Em minutos nosso time entende seu volume, seu nicho e monta o plano ideal pra sua operação.",
+    number: 1,
+    icon: MessageCircle,
+    title: "Entre em Contato",
+    description: "Fale com nosso time via WhatsApp. Em minutos entendemos seu volume, seu nicho e montamos o plano ideal pra sua operação.",
   },
   {
-    number: "02",
-    title: "Setup da sua estrutura",
-    description: "Montamos toda a estrutura — contas, perfis, BMs — tudo aquecido e pronto pra rodar pesado. Você paga a taxa de setup e já começa.",
+    number: 2,
+    icon: Settings,
+    title: "Configuração",
+    description: "Montamos toda a estrutura — contas, perfis, BMs — tudo aquecido e pronto. Você paga a taxa de setup e já começa.",
   },
   {
-    number: "03",
-    title: "Suba seus criativos e escale",
-    description: "Sua única preocupação é criativo e escala. Bloqueou? Caiu? Nós repomos em minutos. Sua operação nunca para.",
+    number: 3,
+    icon: CheckCircle2,
+    title: "Ativação",
+    description: "Em poucos minutos você recebe acesso total e pode começar a anunciar imediatamente. Sem enrolação.",
   },
   {
-    number: "04",
-    title: "Pague pela performance",
-    description: "Modelo simples: taxa de setup + porcentagem do gasto em ads. Quanto mais você escala, mais faz sentido. Sem pegadinha, sem surpresa.",
+    number: 4,
+    icon: TrendingUp,
+    title: "Escale",
+    description: "Escale seus investimentos com segurança. Bloqueou? Caiu? Nós repomos em minutos. Sua operação nunca para.",
   },
 ];
 
 const HowItWorksSection = () => {
   return (
-    <section className="section-padding bg-secondary/30">
-      <div className="container max-w-5xl">
+    <section id="como-funciona" className="section-padding bg-card/30">
+      <div className="container max-w-6xl">
+        {/* Badge + Headline */}
         <div className="text-center mb-16">
-          <span className="text-primary text-sm font-semibold uppercase tracking-wider">Como funciona</span>
-          <h2 className="font-display text-3xl md:text-5xl font-bold mt-3 mb-4">
-            Do zero à escala em <span className="text-gradient">4 passos</span>
+          <div className="badge-pill mx-auto mb-8">
+            COMO FUNCIONA
+          </div>
+          <h2 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold mb-4">
+            O Único Parceiro Que{" "}
+            <span className="text-gradient italic">Você Vai Precisar</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-            Sem burocracia, sem enrolação. Você fala, a gente monta, você escala.
+            Processo simples e rápido para você escalar no Meta Ads sem complicações.
           </p>
         </div>
 
-        <div className="space-y-0">
-          {steps.map((step, i) => (
-            <div
-              key={i}
-              className="relative flex gap-6 md:gap-10 pb-12 last:pb-0 group"
-            >
-              {/* Line */}
-              {i < steps.length - 1 && (
-                <div className="absolute left-[27px] md:left-[35px] top-16 bottom-0 w-px bg-border" />
-              )}
-
-              {/* Number */}
-              <div className="flex-shrink-0 w-14 h-14 md:w-[70px] md:h-[70px] rounded-xl bg-gradient-primary flex items-center justify-center text-primary-foreground font-display font-bold text-lg md:text-xl glow-box-sm">
-                {step.number}
+        {/* 4-col step cards */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-12">
+          {steps.map((step) => (
+            <div key={step.number} className="section-card relative group">
+              {/* Icon with number badge */}
+              <div className="relative w-14 h-14 mb-5">
+                <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center">
+                  <step.icon className="w-7 h-7 text-primary" />
+                </div>
+                <span className="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-gradient-primary text-primary-foreground text-xs font-bold flex items-center justify-center">
+                  {step.number}
+                </span>
               </div>
-
-              {/* Content */}
-              <div className="pt-1">
-                <h3 className="font-display text-xl md:text-2xl font-semibold mb-2">
-                  {step.title}
-                </h3>
-                <p className="text-muted-foreground leading-relaxed max-w-lg">
-                  {step.description}
-                </p>
-              </div>
+              <h3 className="font-display text-lg font-semibold mb-2">
+                {step.title}
+              </h3>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                {step.description}
+              </p>
             </div>
           ))}
+        </div>
+
+        {/* CTA */}
+        <div className="text-center">
+          <a
+            href="https://wa.me/5500000000000"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-3 bg-gradient-primary text-primary-foreground font-bold px-10 py-5 rounded-xl text-lg transition-all hover:scale-105 animate-pulse-glow"
+          >
+            <MessageCircle className="w-5 h-5" />
+            COMEÇAR AGORA NO WHATSAPP
+          </a>
         </div>
       </div>
     </section>

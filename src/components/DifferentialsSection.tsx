@@ -1,74 +1,72 @@
-import { ArrowRight, Building2, HeadphonesIcon, Layers, Target } from "lucide-react";
+import { HeadphonesIcon, ShieldCheck, RefreshCw, Zap, Globe, Lock } from "lucide-react";
 
-const differentials = [
-  {
-    icon: Layers,
-    title: "Contingência é responsabilidade NOSSA",
-    description: "Outros te alugam uma conta e te desejam boa sorte. Na AD Scale, toda a estrutura de contingência — perfis, BMs, contas — é gerenciada pelo nosso time. Caiu? Problema nosso. Você não perde 1 minuto.",
-  },
-  {
-    icon: Target,
-    title: "Feito pra quem já fatura alto",
-    description: "Não atendemos iniciantes. Nosso serviço é pra produtores, afiliados e infoprodutores que já têm operação validada e precisam de estrutura pra escalar sem teto. Se você gasta R$50k+ por mês, a conversa é com a gente.",
-  },
+const benefits = [
   {
     icon: HeadphonesIcon,
-    title: "Suporte que fala a sua língua",
-    description: "Nosso time vive no mundo de ads. Entende contingência, entende bloqueio, entende a pressão de ter uma operação parada. Nada de ticket genérico — aqui é suporte direto, rápido e que resolve.",
+    title: "Suporte Humano Real",
+    description: "Equipe especializada no WhatsApp para resolver problemas e garantir a continuidade das suas campanhas.",
   },
   {
-    icon: Building2,
-    title: "Modelo transparente e escalável",
-    description: "Taxa de setup pra montar sua estrutura + porcentagem do gasto na conta. Sem mensalidade escondida, sem multa, sem contrato absurdo. Quanto mais você escala, mais a AD Scale faz sentido.",
+    icon: ShieldCheck,
+    title: "Contingência 100% Gerenciada",
+    description: "Perfis, BMs e contas de anúncio gerenciados pelo nosso time. Você só precisa subir criativo e escalar.",
+  },
+  {
+    icon: RefreshCw,
+    title: "Reposição em Minutos",
+    description: "Conta caiu? Outra já está pronta. Enquanto outros levam dias, na AD Scale é questão de minutos.",
+  },
+  {
+    icon: Zap,
+    title: "Ativação Rápida",
+    description: "Contas aquecidas e prontas pra volume. Nada de conta virgem que toma block no primeiro real gasto.",
+  },
+  {
+    icon: Globe,
+    title: "Estrutura Sem Limite",
+    description: "5, 10, 50 contas — não importa. Fornecemos quantas sua operação precisar. A estrutura cresce com você.",
+  },
+  {
+    icon: Lock,
+    title: "Modelo Transparente",
+    description: "Taxa de setup + porcentagem do gasto. Sem mensalidade escondida, sem multa, sem contrato abusivo.",
   },
 ];
 
 const DifferentialsSection = () => {
   return (
-    <section className="section-padding">
+    <section id="diferenciais" className="section-padding">
       <div className="container max-w-6xl">
+        {/* Badge + Headline */}
         <div className="text-center mb-16">
-          <span className="text-primary text-sm font-semibold uppercase tracking-wider">Por que a AD Scale</span>
-          <h2 className="font-display text-3xl md:text-5xl font-bold mt-3 mb-4">
-            Não somos mais um fornecedor de conta.{" "}
-            <span className="text-gradient">Somos sua contingência profissional, deixe sua estrutura nas mãos de quem entende.</span>
+          <div className="badge-pill mx-auto mb-8">
+            BENEFÍCIOS
+          </div>
+          <h2 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold mb-4">
+            O que você ganha com a{" "}
+            <span className="text-gradient">blindagem operacional</span> 🛡️
           </h2>
+          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+            Não somos mais um fornecedor de conta. Somos sua contingência profissional, 
+            deixe sua estrutura nas mãos de quem entende.
+          </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
-          {differentials.map((diff, i) => (
-            <div
-              key={i}
-              className="glass rounded-xl p-8 transition-all hover:border-primary/30 group relative overflow-hidden"
-            >
-              <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity" />
-
-              <div className="relative z-10">
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-5">
-                  <diff.icon className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="font-display text-xl font-semibold mb-3">
-                  {diff.title}
-                </h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  {diff.description}
-                </p>
+        {/* 3x2 grid */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {benefits.map((b, i) => (
+            <div key={i} className="section-card group">
+              <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-5">
+                <b.icon className="w-7 h-7 text-primary" />
               </div>
+              <h3 className="font-display text-lg font-semibold mb-2">
+                {b.title}
+              </h3>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                {b.description}
+              </p>
             </div>
           ))}
-        </div>
-
-        {/* CTA */}
-        <div className="mt-16 text-center">
-          <a
-            href="https://wa.me/5500000000000"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-gradient-primary text-primary-foreground font-bold px-8 py-4 rounded-lg text-lg transition-all hover:scale-105 animate-pulse-glow"
-          >
-            QUERO FALAR COM O TIME AD SCALE
-            <ArrowRight className="w-5 h-5" />
-          </a>
         </div>
       </div>
     </section>

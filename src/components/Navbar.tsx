@@ -1,6 +1,14 @@
 import logo from "@/assets/logo-adscale.png";
-import { ArrowRight, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
+
+const navLinks = [
+  { href: "#", label: "Início" },
+  { href: "#solucao", label: "Solução" },
+  { href: "#como-funciona", label: "Como Funciona" },
+  { href: "#diferenciais", label: "Diferenciais" },
+  { href: "#faq", label: "FAQ" },
+];
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -15,38 +23,34 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "glass py-3" : "py-5"
+        scrolled ? "bg-background/90 backdrop-blur-xl border-b border-border/50 py-3" : "py-5"
       }`}
     >
       <div className="container max-w-6xl flex items-center justify-between px-4">
-        {/* Logo */}
         <a href="#" className="flex items-center gap-2">
-          <img src={logo} alt="AD Scale" className="h-10 w-auto" />
+          <img src={logo} alt="AD Scale" className="h-9 w-auto" />
         </a>
 
-        {/* Desktop links */}
         <div className="hidden md:flex items-center gap-8">
-          <a href="#como-funciona" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
-            Como funciona
-          </a>
-          <a href="#diferenciais" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
-            Diferenciais
-          </a>
-          <a href="#faq" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
-            FAQ
-          </a>
+          {navLinks.map((link) => (
+            <a
+              key={link.label}
+              href={link.href}
+              className="text-muted-foreground hover:text-foreground transition-colors text-sm"
+            >
+              {link.label}
+            </a>
+          ))}
           <a
             href="https://wa.me/5500000000000"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-gradient-primary text-primary-foreground font-bold px-5 py-2.5 rounded-lg text-sm transition-all hover:scale-105"
+            className="bg-gradient-primary text-primary-foreground font-bold px-6 py-2.5 rounded-full text-sm transition-all hover:scale-105 hover:shadow-[0_0_20px_hsl(125_100%_45%/0.4)]"
           >
-            QUERO ESCALAR
-            <ArrowRight className="w-4 h-4" />
+            Falar no WhatsApp
           </a>
         </div>
 
-        {/* Mobile toggle */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
           className="md:hidden text-foreground"
@@ -55,26 +59,25 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile menu */}
       {mobileOpen && (
-        <div className="md:hidden glass mt-2 mx-4 rounded-xl p-6 space-y-4">
-          <a href="#como-funciona" onClick={() => setMobileOpen(false)} className="block text-foreground">
-            Como funciona
-          </a>
-          <a href="#diferenciais" onClick={() => setMobileOpen(false)} className="block text-foreground">
-            Diferenciais
-          </a>
-          <a href="#faq" onClick={() => setMobileOpen(false)} className="block text-foreground">
-            FAQ
-          </a>
+        <div className="md:hidden bg-card/95 backdrop-blur-xl border-t border-border/50 mt-2 mx-4 rounded-2xl p-6 space-y-4">
+          {navLinks.map((link) => (
+            <a
+              key={link.label}
+              href={link.href}
+              onClick={() => setMobileOpen(false)}
+              className="block text-foreground text-lg"
+            >
+              {link.label}
+            </a>
+          ))}
           <a
             href="https://wa.me/5500000000000"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-gradient-primary text-primary-foreground font-bold px-5 py-2.5 rounded-lg text-sm w-full justify-center"
+            className="block text-center bg-gradient-primary text-primary-foreground font-bold px-6 py-3 rounded-full text-sm w-full"
           >
-            QUERO ESCALAR
-            <ArrowRight className="w-4 h-4" />
+            Falar no WhatsApp
           </a>
         </div>
       )}

@@ -34,12 +34,11 @@ const faqs = [
 
 const FAQSection = () => {
   return (
-    <section className="section-padding bg-secondary/30">
+    <section id="faq" className="section-padding">
       <div className="container max-w-3xl">
-        <div className="text-center mb-16">
-          <span className="text-primary text-sm font-semibold uppercase tracking-wider">Dúvidas</span>
-          <h2 className="font-display text-3xl md:text-5xl font-bold mt-3 mb-4">
-            Perguntas frequentes
+        <div className="text-center mb-12">
+          <h2 className="font-display text-3xl md:text-5xl font-bold">
+            Perguntas <span className="text-gradient">frequentes</span>
           </h2>
         </div>
 
@@ -48,7 +47,7 @@ const FAQSection = () => {
             <AccordionItem
               key={i}
               value={`item-${i}`}
-              className="glass rounded-xl px-6 border-border/50 data-[state=open]:border-primary/30 transition-colors"
+              className="bg-card border border-border/50 rounded-xl px-6 data-[state=open]:border-primary/30 transition-colors"
             >
               <AccordionTrigger className="text-left font-display font-semibold text-base md:text-lg hover:no-underline hover:text-primary transition-colors py-5">
                 {faq.question}
