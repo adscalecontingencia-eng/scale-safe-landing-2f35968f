@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,hsl(125_100%_45%/0.05),transparent_60%)]" />
 
       <div className="relative z-10 container max-w-6xl px-4 pt-28 pb-16">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left — Copy */}
           <div>
             <div className="badge-pill mb-6 animate-fade-in-up" style={{ animationDelay: "0.05s" }}>
