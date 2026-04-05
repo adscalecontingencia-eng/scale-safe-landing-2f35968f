@@ -1,4 +1,4 @@
-import logo from "@/assets/logo-adscale.png";
+import Logo from "./Logo";
 
 const navLinks = [
   { href: "#", label: "Início" },
@@ -13,15 +13,15 @@ const FooterSection = () => {
     <footer className="border-t border-border/50 py-12 px-4">
       <div className="container max-w-6xl">
         <div className="grid md:grid-cols-3 gap-10 mb-10">
-          {/* Brand */}
           <div>
-            <img src={logo} alt="AD Scale" className="h-10 w-auto mb-4" />
+            <div className="mb-4">
+              <Logo />
+            </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
               Infraestrutura de contingência para anunciantes profissionais que querem escalar no Meta Ads sem parar.
             </p>
           </div>
 
-          {/* Nav */}
           <div>
             <h4 className="font-display font-semibold text-foreground mb-4">Navegação</h4>
             <div className="space-y-2">
@@ -37,7 +37,6 @@ const FooterSection = () => {
             </div>
           </div>
 
-          {/* Contact */}
           <div>
             <h4 className="font-display font-semibold text-foreground mb-4">Contato</h4>
             <div className="space-y-2 text-muted-foreground text-sm">
