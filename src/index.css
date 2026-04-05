@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 @layer base {
   :root {
@@ -23,7 +23,7 @@
     --secondary-foreground: 0 0% 95%;
 
     --muted: 120 6% 14%;
-    --muted-foreground: 120 5% 50%;
+    --muted-foreground: 120 5% 55%;
 
     --accent: 125 100% 45%;
     --accent-foreground: 0 0% 0%;
@@ -93,6 +93,14 @@
   .section-padding {
     @apply py-20 md:py-28 px-4;
   }
+
+  .badge-pill {
+    @apply inline-flex items-center gap-2 border border-primary/30 rounded-full px-5 py-2 text-sm font-semibold uppercase tracking-wider text-primary;
+  }
+
+  .section-card {
+    @apply bg-card border border-border/50 rounded-2xl p-6 md:p-8 transition-all duration-300 hover:border-primary/30;
+  }
 }
 
 @keyframes float {
@@ -110,6 +118,11 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
 .animate-float {
   animation: float 6s ease-in-out infinite;
 }
@@ -120,4 +133,8 @@
 
 .animate-fade-in-up {
   animation: fade-in-up 0.8s ease-out forwards;
+}
+
+.animate-scroll-left {
+  animation: scroll-left 20s linear infinite;
 }
