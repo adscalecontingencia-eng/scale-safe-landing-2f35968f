@@ -69,14 +69,14 @@ const HeroSection = () => {
           </div>
 
           {/* Right — Globe image */}
-          <div className="hidden lg:flex items-center justify-center animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
+          <div className="hidden md:flex items-center justify-center animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
             <div className="relative">
               <img
                 src={heroGlobe}
                 alt="Globo de contingência Meta Ads"
                 width={1024}
                 height={1024}
-                className="w-[500px] h-[500px] object-contain animate-float"
+                className="w-[380px] lg:w-[480px] h-auto object-contain animate-float"
               />
               {/* Glow behind */}
               <div className="absolute inset-0 bg-primary/10 rounded-full blur-3xl -z-10 scale-75" />
