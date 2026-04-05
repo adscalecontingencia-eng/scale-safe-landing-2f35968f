@@ -30,20 +30,20 @@ const HeroSection = () => {
 
         {/* Headline */}
         <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
-          Você não tem um problema de tráfego.{" "}
-          <span className="text-gradient">Tem uma estrutura que trava seu faturamento.</span>
+          Sua conta caiu?{" "}
+          <span className="text-gradient">O problema acabou.</span>
         </h1>
 
         {/* Subheadline */}
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-          Conta caindo, BM bloqueada e pixel perdido não é azar — é falta de contingência profissional. 
-          Enquanto você recria tudo do zero, seu faturamento congela e seu concorrente escala no seu lugar.
+          Enquanto seu concorrente tá parado criando BM do zero e aquecendo, você tá escalando com contas ilimitadas, 
+          contingência blindada e reposição em minutos. Chega de perder dinheiro com estrutura frágil.
         </p>
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
           <a
-            href="https://wa.me/5531998416336?text=Ol%C3%A1%2C%20quero%20blindar%20minha%20opera%C3%A7%C3%A3o%20com%20a%20AD%20Scale.%20Podem%20me%20ajudar%3F"
+            href="https://wa.me/5500000000000"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-gradient-primary text-primary-foreground font-bold px-8 py-4 rounded-lg text-lg transition-all hover:scale-105 animate-pulse-glow"
