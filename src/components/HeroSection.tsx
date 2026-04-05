@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react";
-import HeroVisual from "./HeroVisual";
+import heroGlobe from "@/assets/hero-globe.png";
 
 const HeroSection = () => {
   return (
@@ -68,9 +68,19 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Right — Animated visual */}
+          {/* Right — Globe image */}
           <div className="hidden lg:flex items-center justify-center animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
-            <HeroVisual />
+            <div className="relative">
+              <img
+                src={heroGlobe}
+                alt="Globo de contingência Meta Ads"
+                width={1024}
+                height={1024}
+                className="w-[500px] h-[500px] object-contain animate-float"
+              />
+              {/* Glow behind */}
+              <div className="absolute inset-0 bg-primary/10 rounded-full blur-3xl -z-10 scale-75" />
+            </div>
           </div>
         </div>
       </div>
