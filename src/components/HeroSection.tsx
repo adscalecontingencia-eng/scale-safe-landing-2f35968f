@@ -1,4 +1,5 @@
-import { ArrowRight, Shield } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import HeroVisual from "./HeroVisual";
 
 const HeroSection = () => {
   return (
@@ -11,29 +12,24 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left — Copy */}
           <div>
-            {/* Badge */}
             <div className="badge-pill mb-6 animate-fade-in-up" style={{ animationDelay: "0.05s" }}>
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
               Especialistas em Contingência Meta Ads
             </div>
 
-            {/* Kicker */}
             <p className="text-muted-foreground uppercase tracking-widest text-sm mb-3 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
               O jogo da mídia paga mudou
             </p>
 
-            {/* Headline */}
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6 animate-fade-in-up" style={{ animationDelay: "0.15s" }}>
               A INFRAESTRUTURA{" "}
               <span className="text-gradient">DECIDE QUEM ESCALA.</span>
             </h1>
 
-            {/* Sub */}
             <p className="text-muted-foreground text-lg md:text-xl max-w-xl mb-8 leading-relaxed animate-fade-in-up" style={{ animationDelay: "0.25s" }}>
               Enquanto seu concorrente tá parado criando BM do zero e aquecendo, você tá escalando com contas ilimitadas, contingência blindada e reposição em minutos. Chega de perder dinheiro com estrutura frágil.
             </p>
 
-            {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up" style={{ animationDelay: "0.35s" }}>
               <a
                 href="https://wa.me/5500000000000"
@@ -53,7 +49,6 @@ const HeroSection = () => {
               </a>
             </div>
 
-            {/* Social proof */}
             <div className="mt-12 flex flex-wrap items-center gap-6 md:gap-10 animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-primary" />
@@ -73,32 +68,9 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Right — Visual element (globe-like) */}
-          <div className="hidden lg:flex items-center justify-center">
-            <div className="relative w-[420px] h-[420px]">
-              {/* Outer ring */}
-              <div className="absolute inset-0 rounded-full border border-primary/20" />
-              <div className="absolute inset-4 rounded-full border border-primary/10" />
-              <div className="absolute inset-8 rounded-full border border-primary/5" />
-              {/* Glow center */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-48 h-48 rounded-full bg-primary/10 blur-3xl" />
-              </div>
-              {/* Shield icon */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-24 h-24 rounded-2xl bg-gradient-primary flex items-center justify-center glow-box">
-                  <Shield className="w-12 h-12 text-primary-foreground" />
-                </div>
-              </div>
-              {/* Orbiting dots */}
-              <div className="absolute top-8 right-12 w-3 h-3 rounded-full bg-primary/60 animate-float" />
-              <div className="absolute bottom-16 left-8 w-2 h-2 rounded-full bg-primary/40 animate-float" style={{ animationDelay: "1s" }} />
-              <div className="absolute top-1/2 right-4 w-2 h-2 rounded-full bg-primary/50 animate-float" style={{ animationDelay: "2s" }} />
-              <div className="absolute bottom-8 right-20 w-3 h-3 rounded-full bg-primary/30 animate-float" style={{ animationDelay: "0.5s" }} />
-              {/* Connecting lines */}
-              <div className="absolute top-[50%] left-[50%] w-px h-32 bg-gradient-to-b from-primary/20 to-transparent -translate-x-1/2 rotate-45 origin-top" />
-              <div className="absolute top-[50%] left-[50%] w-px h-28 bg-gradient-to-b from-primary/15 to-transparent -translate-x-1/2 -rotate-30 origin-top" />
-            </div>
+          {/* Right — Animated visual */}
+          <div className="hidden lg:flex items-center justify-center animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
+            <HeroVisual />
           </div>
         </div>
       </div>

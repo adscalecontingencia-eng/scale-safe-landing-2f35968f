@@ -1,4 +1,4 @@
-import logo from "@/assets/logo-adscale.png";
+import Logo from "./Logo";
 import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
 
@@ -27,8 +27,8 @@ const Navbar = () => {
       }`}
     >
       <div className="container max-w-6xl flex items-center justify-between px-4">
-        <a href="#" className="flex items-center gap-2">
-          <img src={logo} alt="AD Scale" className="h-9 w-auto" />
+        <a href="#">
+          <Logo />
         </a>
 
         <div className="hidden md:flex items-center gap-8">
