@@ -49,8 +49,7 @@ const PainPointsSection = () => {
 
         {/* Sub */}
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-8">
-          Se você roda nutra ou infoprodutos no Meta e não tem uma contingência profissional, 
-          é questão de tempo para a sua estrutura ficar estagnada.
+          Nós fornecemos BM's de agência verificada, garantindo a melhor performance dos anúncios e o aumento rápido no limite diário de gastos.
         </p>
 
         {/* Pain chips */}
