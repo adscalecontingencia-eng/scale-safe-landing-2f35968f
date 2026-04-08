@@ -41,7 +41,7 @@ const FooterSection = () => {
             <h4 className="font-display font-semibold text-foreground mb-4">Contato</h4>
             <div className="space-y-2 text-muted-foreground text-sm">
               <a
-                href="https://wa.me/5500000000000"
+                href="https://wa.me/message/LT3GZH6T7PTYB1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-primary transition-colors"

@@ -19,7 +19,7 @@ const HeroSection = () => {
             </div>
 
             <p className="text-muted-foreground uppercase tracking-widest text-sm mb-3 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
-              O jogo da mídia paga mudou
+              O JOGO DO TRÁFEGO PAGO MUDOU
             </p>
 
             <h1 className="font-display text-5xl lg:text-6xl font-bold leading-[1.1] mb-6 animate-fade-in-up" style={{ animationDelay: "0.15s" }}>
@@ -33,7 +33,7 @@ const HeroSection = () => {
 
             <div className="flex flex-row gap-4 animate-fade-in-up" style={{ animationDelay: "0.35s" }}>
               <a
-                href="https://wa.me/5500000000000"
+                href="https://wa.me/message/LT3GZH6T7PTYB1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-gradient-primary text-primary-foreground font-bold px-8 py-4 rounded-xl text-lg transition-all hover:scale-105 animate-pulse-glow"
@@ -53,8 +53,8 @@ const HeroSection = () => {
             <div className="mt-12 flex flex-wrap items-center gap-6 md:gap-10 animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-primary" />
-                <span className="text-foreground font-bold">R$50M+</span>
-                <span className="text-muted-foreground text-sm">Rodados</span>
+                <span className="text-foreground font-bold">+$5M</span>
+                <span className="text-muted-foreground text-sm">Dolares investidos</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-primary" />
@@ -89,7 +89,7 @@ const HeroSection = () => {
             </div>
 
             <p className="text-muted-foreground uppercase tracking-widest text-xs mb-2 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-              O jogo da mídia paga mudou
+              O JOGO DO TRÁFEGO PAGO MUDOU
             </p>
 
             <h1 className="font-display text-3xl font-bold leading-[1.1] mb-4 animate-fade-in-up" style={{ animationDelay: "0.25s" }}>
@@ -103,7 +103,7 @@ const HeroSection = () => {
 
             <div className="flex flex-col gap-3 animate-fade-in-up" style={{ animationDelay: "0.35s" }}>
               <a
-                href="https://wa.me/5500000000000"
+                href="https://wa.me/message/LT3GZH6T7PTYB1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-gradient-primary text-primary-foreground font-bold px-6 py-3.5 rounded-xl text-base transition-all hover:scale-105 animate-pulse-glow"
@@ -123,8 +123,8 @@ const HeroSection = () => {
             <div className="mt-8 flex flex-wrap justify-center items-center gap-4 animate-fade-in-up" style={{ animationDelay: "0.45s" }}>
               <div className="flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary" />
-                <span className="text-foreground font-bold text-sm">R$50M+</span>
-                <span className="text-muted-foreground text-xs">Rodados</span>
+                <span className="text-foreground font-bold text-sm">+$5M</span>
+                <span className="text-muted-foreground text-xs">Dolares investidos</span>
               </div>
               <div className="flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary" />
