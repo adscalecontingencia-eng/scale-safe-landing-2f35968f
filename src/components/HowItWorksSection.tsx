@@ -71,7 +71,7 @@ const HowItWorksSection = () => {
         {/* CTA */}
         <div className="text-center">
           <a
-            href="https://wa.me/5500000000000"
+            href="https://wa.me/message/LT3GZH6T7PTYB1"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-3 bg-gradient-primary text-primary-foreground font-bold px-10 py-5 rounded-xl text-lg transition-all hover:scale-105 animate-pulse-glow"
