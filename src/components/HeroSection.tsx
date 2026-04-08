@@ -53,8 +53,8 @@ const HeroSection = () => {
             <div className="mt-12 flex flex-wrap items-center gap-6 md:gap-10 animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-primary" />
-                <span className="text-foreground font-bold">R$50M+</span>
-                <span className="text-muted-foreground text-sm">Rodados</span>
+                <span className="text-foreground font-bold">+$5M</span>
+                <span className="text-muted-foreground text-sm">Dolares investidos</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-primary" />
@@ -123,8 +123,8 @@ const HeroSection = () => {
             <div className="mt-8 flex flex-wrap justify-center items-center gap-4 animate-fade-in-up" style={{ animationDelay: "0.45s" }}>
               <div className="flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary" />
-                <span className="text-foreground font-bold text-sm">R$50M+</span>
-                <span className="text-muted-foreground text-xs">Rodados</span>
+                <span className="text-foreground font-bold text-sm">+$5M</span>
+                <span className="text-muted-foreground text-xs">Dolares investidos</span>
               </div>
               <div className="flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary" />
