@@ -45,9 +45,9 @@ const SolutionSection = () => {
           {/* Quote box */}
           <div className="glass rounded-2xl px-8 py-6 max-w-2xl mx-auto mb-16">
             <p className="text-foreground text-lg">
-              Nós não prometemos ROAS.{" "}
+              Nós fornecemos BM's de agência verificada,{" "}
               <span className="text-primary font-semibold">
-                Nós criamos o ambiente necessário para que ele aconteça.
+                garantindo a melhor performance dos anúncios e o aumento rápido no limite diário de gastos.
               </span>
             </p>
           </div>

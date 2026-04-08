@@ -19,7 +19,7 @@ const HeroSection = () => {
             </div>
 
             <p className="text-muted-foreground uppercase tracking-widest text-sm mb-3 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
-              O jogo da mídia paga mudou
+              O JOGO DO TRÁFEGO PAGO MUDOU
             </p>
 
             <h1 className="font-display text-5xl lg:text-6xl font-bold leading-[1.1] mb-6 animate-fade-in-up" style={{ animationDelay: "0.15s" }}>
@@ -89,7 +89,7 @@ const HeroSection = () => {
             </div>
 
             <p className="text-muted-foreground uppercase tracking-widest text-xs mb-2 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-              O jogo da mídia paga mudou
+              O JOGO DO TRÁFEGO PAGO MUDOU
             </p>
 
             <h1 className="font-display text-3xl font-bold leading-[1.1] mb-4 animate-fade-in-up" style={{ animationDelay: "0.25s" }}>
