@@ -61,12 +61,12 @@ const FooterSection = () => {
                 📱 WhatsApp
               </a>
               <a
-                href="https://instagram.com/adscale"
+                href="https://www.instagram.com/adscale_br/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-primary transition-colors"
               >
-                📸 @adscale
+                📸 @adscale_br
               </a>
             </div>
           </div>
