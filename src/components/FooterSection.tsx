@@ -41,7 +41,7 @@ const FooterSection = () => {
             <h4 className="font-display font-semibold text-foreground mb-4">Contato</h4>
             <div className="space-y-2 text-muted-foreground text-sm">
               <a
-                href="https://wa.me/message/LT3GZH6T7PTYB1"
+                href="https://wa.me/message/LT3GZH6T7PTYB1?text=Ol%C3%A1%21%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20conting%C3%AAncia%20da%20AD%20Scale."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-primary transition-colors"

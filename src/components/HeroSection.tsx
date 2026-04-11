@@ -33,7 +33,7 @@ const HeroSection = () => {
 
             <div className="flex flex-row gap-4 animate-fade-in-up" style={{ animationDelay: "0.35s" }}>
               <a
-                href="https://wa.me/message/LT3GZH6T7PTYB1"
+                href="https://wa.me/message/LT3GZH6T7PTYB1?text=Ol%C3%A1%21%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20conting%C3%AAncia%20da%20AD%20Scale."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-gradient-primary text-primary-foreground font-bold px-8 py-4 rounded-xl text-lg transition-all hover:scale-105 animate-pulse-glow"
@@ -103,7 +103,7 @@ const HeroSection = () => {
 
             <div className="flex flex-col gap-3 animate-fade-in-up" style={{ animationDelay: "0.35s" }}>
               <a
-                href="https://wa.me/message/LT3GZH6T7PTYB1"
+                href="https://wa.me/message/LT3GZH6T7PTYB1?text=Ol%C3%A1%21%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20conting%C3%AAncia%20da%20AD%20Scale."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-gradient-primary text-primary-foreground font-bold px-6 py-3.5 rounded-xl text-base transition-all hover:scale-105 animate-pulse-glow"
