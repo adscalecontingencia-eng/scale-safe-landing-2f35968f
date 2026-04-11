@@ -3,7 +3,7 @@ import DotGlobe from "./DotGlobe";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden w-full">
+    <section className="relative min-h-screen md:min-h-screen flex items-center overflow-hidden w-full">
       {/* Background effects */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,hsl(125_100%_45%/0.06),transparent_60%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,hsl(125_100%_45%/0.03),transparent_60%)]" />
