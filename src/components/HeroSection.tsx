@@ -92,7 +92,7 @@ const HeroSection = () => {
               O JOGO DO TRÁFEGO PAGO MUDOU
             </p>
 
-            <h1 className="font-display text-3xl font-bold leading-[1.1] mb-4 animate-fade-in-up" style={{ animationDelay: "0.25s" }}>
+            <h1 className="font-display text-2xl font-bold leading-[1.1] mb-3 animate-fade-in-up" style={{ animationDelay: "0.25s" }}>
               A INFRAESTRUTURA{" "}
               <span className="text-gradient">DECIDE QUEM ESCALA.</span>
             </h1>
