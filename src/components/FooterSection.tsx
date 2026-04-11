@@ -1,11 +1,13 @@
 import Logo from "./Logo";
+import { Link } from "react-router-dom";
 
 const navLinks = [
-  { href: "#", label: "Início" },
-  { href: "#solucao", label: "Solução" },
-  { href: "#como-funciona", label: "Como Funciona" },
-  { href: "#diferenciais", label: "Diferenciais" },
-  { href: "#faq", label: "FAQ" },
+  { href: "/", label: "Início" },
+  { href: "/#solucao", label: "Solução" },
+  { href: "/#como-funciona", label: "Como Funciona" },
+  { href: "/#diferenciais", label: "Diferenciais" },
+  { href: "/#faq", label: "FAQ" },
+  { href: "/blog", label: "Blog" },
 ];
 
 const FooterSection = () => {
@@ -26,13 +28,23 @@ const FooterSection = () => {
             <h4 className="font-display font-semibold text-foreground mb-4">Navegação</h4>
             <div className="space-y-2">
               {navLinks.map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  className="block text-muted-foreground text-sm hover:text-primary transition-colors"
-                >
-                  {link.label}
-                </a>
+                link.href.startsWith("/") && !link.href.includes("#") ? (
+                  <Link
+                    key={link.label}
+                    to={link.href}
+                    className="block text-muted-foreground text-sm hover:text-primary transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                ) : (
+                  <a
+                    key={link.label}
+                    href={link.href}
+                    className="block text-muted-foreground text-sm hover:text-primary transition-colors"
+                  >
+                    {link.label}
+                  </a>
+                )
               ))}
             </div>
           </div>

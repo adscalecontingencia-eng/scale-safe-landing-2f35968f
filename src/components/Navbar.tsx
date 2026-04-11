@@ -1,6 +1,7 @@
 import Logo from "./Logo";
 import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const navLinks = [
   { href: "#", label: "Início" },
@@ -11,6 +12,8 @@ const navLinks = [
 ];
 
 const Navbar = () => {
+  const location = useLocation();
+  const isHome = location.pathname === "/";
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -27,12 +30,12 @@ const Navbar = () => {
       }`}
     >
       <div className="container max-w-6xl flex items-center justify-between px-4">
-        <a href="#">
+        <Link to="/">
           <Logo />
-        </a>
+        </Link>
 
         <div className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
+          {isHome && navLinks.map((link) => (
             <a
               key={link.label}
               href={link.href}
@@ -41,6 +44,12 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
+          <Link
+            to="/blog"
+            className="text-muted-foreground hover:text-foreground transition-colors text-sm"
+          >
+            Blog
+          </Link>
           <a
             href="https://wa.me/message/LT3GZH6T7PTYB1?text=Ol%C3%A1%21%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20conting%C3%AAncia%20da%20AD%20Scale."
             target="_blank"
@@ -61,7 +70,7 @@ const Navbar = () => {
 
       {mobileOpen && (
         <div className="md:hidden bg-card/95 backdrop-blur-xl border-t border-border/50 mt-2 mx-4 rounded-2xl p-6 space-y-4">
-          {navLinks.map((link) => (
+          {isHome && navLinks.map((link) => (
             <a
               key={link.label}
               href={link.href}
@@ -71,6 +80,13 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
+          <Link
+            to="/blog"
+            onClick={() => setMobileOpen(false)}
+            className="block text-foreground text-lg"
+          >
+            Blog
+          </Link>
           <a
             href="https://wa.me/message/LT3GZH6T7PTYB1?text=Ol%C3%A1%21%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20conting%C3%AAncia%20da%20AD%20Scale."
             target="_blank"
