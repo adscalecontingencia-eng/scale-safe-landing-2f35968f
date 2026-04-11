@@ -7,28 +7,36 @@ import {
 
 const faqs = [
   {
-    question: "Pra quem é a AD Scale?",
-    answer: "Pra produtores, afiliados e infoprodutores que já têm operação validada rodando nutra e infoprodutos no Meta Ads. Se você já gasta R$50k+ por mês em anúncios e precisa de estrutura pra escalar, a AD Scale é pra você.",
+    question: "Como funciona o aluguel de contas de anúncio Meta Ads?",
+    answer: "Você entra em contato pelo WhatsApp, nosso time entende sua operação e monta a estrutura ideal. Fornecemos BMs de agência verificada, contas de anúncio aquecidas e prontas para escalar. Toda a contingência é gerenciada por nós — você só precisa subir criativo e escalar.",
   },
   {
-    question: "Qual o modelo de pagamento?",
-    answer: "Cobramos uma taxa de setup para montar toda a sua estrutura (contas, perfis, BMs) + uma porcentagem do valor gasto dentro das contas de anúncio. Sem mensalidade fixa escondida, sem surpresas.",
+    question: "O que é BM de agência verificada e por que é importante?",
+    answer: "BM de agência verificada é um Business Manager que passou pelo processo oficial de verificação do Meta. Isso garante limites de gastos mais altos desde o início, menor risco de bloqueios e melhor performance dos anúncios. É o padrão utilizado pelas maiores agências de tráfego do mundo.",
   },
   {
-    question: "O que acontece quando minha conta cai?",
-    answer: "Repomos em minutos. Perfis, BMs e contas de anúncio são repostos imediatamente pela nossa equipe. Sua operação não para — esse é o nosso trabalho.",
+    question: "Funciona para quem roda nutra e infoprodutos no Meta Ads?",
+    answer: "Sim. Nossa estrutura de contingência é especialmente preparada para operações de nutra e infoprodutos no Facebook Ads e Instagram Ads. Mantemos contas blindadas e reposição imediata para que sua campanha nunca pare de rodar.",
   },
   {
-    question: "Tem limite de contas?",
-    answer: "Não. Fornecemos quantas contas, perfis e BMs sua operação precisar. Se você precisa de 5 ou 50, nós entregamos. A estrutura cresce junto com a sua operação.",
+    question: "Qual o limite diário de gastos das contas de anúncio?",
+    answer: "As contas fornecidas pela AD Scale possuem limite diário de gastos elevado desde o início, com aumento rápido conforme o histórico de investimento. Isso permite escalar campanhas rapidamente sem as restrições típicas de contas pessoais.",
   },
   {
-    question: "Eu preciso me preocupar com contingência?",
-    answer: "Zero. Esse é o nosso maior diferencial. Toda a gestão de contingência — criação de perfis, aquecimento de contas, gestão de BMs — é responsabilidade do nosso time. Você só precisa subir criativo e escalar.",
+    question: "O que acontece quando uma conta de anúncio é bloqueada?",
+    answer: "Repomos em minutos. Perfis, BMs e contas de anúncio são repostos imediatamente pela nossa equipe de contingência. Sua operação não para — esse é o nosso trabalho. Mantemos 99.8% de uptime.",
   },
   {
-    question: "Como começo?",
-    answer: "Manda uma mensagem no WhatsApp. Nosso time entende sua operação em minutos e já monta o plano ideal. Em poucas horas você pode estar com a estrutura rodando.",
+    question: "Tem limite de contas de anúncio que posso alugar?",
+    answer: "Não. Fornecemos quantas contas, perfis e BMs sua operação precisar. Se você precisa de 5 ou 50 contas de anúncio, nós entregamos. A estrutura cresce junto com a sua operação no Meta Ads.",
+  },
+  {
+    question: "Qual o modelo de pagamento do aluguel de contas?",
+    answer: "Cobramos uma taxa de setup para montar toda a sua estrutura de contingência (contas, perfis, BMs) + uma pequena porcentagem do valor gasto dentro das contas de anúncio. Sem mensalidade fixa, sem surpresas.",
+  },
+  {
+    question: "É seguro alugar conta de anúncio no Facebook Ads?",
+    answer: "Sim. Nossas contas são de agência verificada pelo Meta, com contingência profissional e suporte dedicado. Temos mais de $5M investidos através das nossas contas e mais de 500 contas ativas simultaneamente.",
   },
 ];
 
