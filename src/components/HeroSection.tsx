@@ -83,7 +83,7 @@ const HeroSection = () => {
           </div>
 
           <div className="w-full text-center">
-            <div className="badge-pill mb-4 animate-fade-in-up mx-auto" style={{ animationDelay: "0.15s" }}>
+            <div className="badge-pill mb-3 animate-fade-in-up mx-auto" style={{ animationDelay: "0.15s" }}>
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
               Contingência Meta Ads
             </div>
