@@ -42,7 +42,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="https://wa.me/message/LT3GZH6T7PTYB1"
+            href="https://wa.me/message/LT3GZH6T7PTYB1?text=Ol%C3%A1%21%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20conting%C3%AAncia%20da%20AD%20Scale."
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-primary text-primary-foreground font-bold px-6 py-2.5 rounded-full text-sm transition-all hover:scale-105 hover:shadow-[0_0_20px_hsl(125_100%_45%/0.4)]"
@@ -72,7 +72,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="https://wa.me/message/LT3GZH6T7PTYB1"
+            href="https://wa.me/message/LT3GZH6T7PTYB1?text=Ol%C3%A1%21%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20conting%C3%AAncia%20da%20AD%20Scale."
             target="_blank"
             rel="noopener noreferrer"
             className="block text-center bg-gradient-primary text-primary-foreground font-bold px-6 py-3 rounded-full text-sm w-full"
