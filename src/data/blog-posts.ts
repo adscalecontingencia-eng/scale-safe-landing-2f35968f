@@ -398,4 +398,454 @@ Rodar nutra e infoprodutos no Meta Ads exige contingência profissional. Com BMs
 
 **A AD Scale é especialista em contingência para nutra e infoprodutos.** Mais de 500 contas ativas e 99.8% de uptime. Fale conosco pelo WhatsApp.`,
   },
+  {
+    slug: "perfil-facebook-desativado-o-que-fazer",
+    title: "Perfil do Facebook Desativado: O Que Fazer para Recuperar e Proteger sua Operação",
+    description: "Seu perfil do Facebook foi desativado e você perdeu acesso à BM e às contas de anúncio? Saiba como agir, recuperar e proteger sua operação com contingência.",
+    date: "2026-04-12",
+    readTime: "8 min",
+    category: "Facebook Ads",
+    content: `## Perfil do Facebook desativado: por que acontece?
+
+Ter o perfil pessoal do Facebook desativado é um dos maiores pesadelos de qualquer anunciante. Se você é o único admin da sua Business Manager, perder o perfil significa perder acesso a **todas** as contas de anúncio, pixels e públicos vinculados.
+
+### Motivos comuns para desativação de perfil
+
+- **Múltiplas contas pessoais** — o Meta detecta e desativa perfis duplicados
+- **Comportamento suspeito** — logins de IPs ou dispositivos variados
+- **Denúncias de usuários** — acúmulo de reports pode acionar desativação automática
+- **Verificação de identidade** — falha em confirmar identidade quando solicitado
+- **Violação de Padrões da Comunidade** — publicações ou interações que violam regras
+
+### O que fazer quando o perfil é desativado?
+
+#### 1. Solicite revisão imediatamente
+
+Acesse o formulário de revisão do Meta e envie seus documentos de identidade. O prazo de resposta varia de 24h a 30 dias.
+
+#### 2. Não crie outro perfil
+
+Criar um perfil novo piora a situação. O Meta cruza dados de dispositivo, IP e cookies, e pode banir permanentemente ambas as contas.
+
+#### 3. Ative sua contingência
+
+Se você depende 100% de um único perfil para administrar sua BM, qualquer bloqueio paralisa toda a operação. É aqui que a contingência profissional faz diferença.
+
+### Como a contingência protege contra desativação de perfil
+
+Com uma estrutura de contingência profissional:
+
+- **Múltiplas BMs de agência** — mesmo que um perfil caia, as outras BMs continuam ativas
+- **Administradores múltiplos** — nunca dependa de um único admin na BM
+- **Contas de anúncio distribuídas** — o investimento não fica concentrado em um único ponto de falha
+- **Reposição imediata** — se uma conta é afetada, outra entra em operação em minutos
+
+### Depoimentos de anunciantes no Reddit
+
+A situação é tão comum que comunidades como r/FacebookAds e r/DigitalMarketing estão cheias de relatos como:
+
+- *"Meu perfil foi desativado e eu era o único admin da BM. Perdi tudo."*
+- *"Tentei contactar o suporte do Meta várias vezes, mas só recebo respostas automáticas."*
+- *"Desde que migrei para contas de agência, nunca mais tive esse problema."*
+
+### Prevenção: como evitar perder acesso
+
+1. **Adicione múltiplos admins à BM** — nunca dependa de um único perfil
+2. **Ative autenticação de dois fatores** — reduz risco de hack e desativação
+3. **Mantenha o perfil "limpo"** — evite publicações polêmicas e comportamento suspeito
+4. **Use BMs de agência verificada** — elimina a dependência do perfil pessoal
+5. **Tenha sempre contingência ativa** — contas backup prontas para rodar
+
+### Conclusão
+
+A desativação de perfil é imprevisível e o suporte do Meta é notoriamente lento. A única proteção real é ter uma infraestrutura de contingência que não dependa de um único perfil ou BM.
+
+**Na AD Scale, sua operação nunca para.** Oferecemos BMs de agência verificada independentes do seu perfil pessoal. Fale conosco pelo WhatsApp.`,
+  },
+  {
+    slug: "taxas-meta-ads-2026-reforma-tributaria",
+    title: "Taxas Meta Ads 2026: Como a Reforma Tributária Afeta seus Anúncios e Como se Proteger",
+    description: "Entenda as novas taxas Meta Ads 2026, como a reforma tributária impacta o custo dos anúncios e estratégias para manter ROI positivo com contingência.",
+    date: "2026-04-13",
+    readTime: "6 min",
+    category: "Escala",
+    content: `## Novas taxas Meta Ads em 2026: o que mudou?
+
+A partir de janeiro de 2026, a Reforma Tributária trouxe mudanças significativas na tributação de anúncios digitais no Brasil. Os anunciantes do Meta Ads agora enfrentam custos adicionais que impactam diretamente o ROI das campanhas.
+
+### Principais mudanças
+
+- **Novos impostos sobre serviços digitais** — taxação adicional sobre plataformas estrangeiras
+- **Aumento no custo por CPM** — o impacto é repassado ao anunciante
+- **Cobrança em real (BRL)** — mudanças na forma de câmbio e cobrança
+- **Notas fiscais obrigatórias** — maior burocracia para empresas
+
+### Impacto no custo dos anúncios
+
+Na prática, o custo de rodar anúncios no Meta subiu entre **5% e 15%** dependendo da estrutura fiscal do anunciante. Para quem roda alto volume, isso pode representar dezenas de milhares de reais por mês.
+
+### Como manter ROI positivo com custos maiores
+
+#### 1. Otimize sua estrutura de contas
+
+Com custos maiores, cada centavo conta. BMs de agência verificada oferecem limites mais altos e melhor performance no leilão do Meta.
+
+#### 2. Escale os criativos vencedores
+
+Em vez de testar demais, encontre os vencedores e escale agressivamente. O custo de teste ficou mais caro.
+
+#### 3. Reduza o downtime
+
+Cada dia parado por bloqueio agora custa mais caro. A contingência profissional se torna ainda mais essencial.
+
+#### 4. Diversifique canais
+
+Não dependa 100% do Meta. Google Ads, TikTok Ads e tráfego orgânico podem complementar sua operação.
+
+#### 5. Negocie taxas com fornecedores
+
+Fornecedores de contas de anúncio com volume alto podem oferecer condições melhores.
+
+### Contingência como estratégia de economia
+
+Pode parecer contra-intuitivo, mas investir em contingência profissional **economiza dinheiro** com as novas taxas:
+
+- **Menos tempo parado** = menos dinheiro desperdiçado
+- **BMs de agência** = melhor posição no leilão = CPMs menores
+- **Limites altos** = capacidade de escalar criativos vencedores rapidamente
+- **Reposição imediata** = retorno ao ar em minutos, não dias
+
+### Conclusão
+
+As novas taxas do Meta Ads em 2026 tornaram a eficiência operacional ainda mais importante. Quem tem contingência profissional desperdiça menos e escala mais.
+
+**A AD Scale ajuda você a maximizar ROI mesmo com custos maiores.** Contas de agência verificada com limites altos. Fale conosco pelo WhatsApp.`,
+  },
+  {
+    slug: "meta-ads-andromeda-o-que-mudou",
+    title: "Meta Ads Andromeda: O que Mudou no Algoritmo e Como Adaptar sua Estratégia",
+    description: "Entenda a atualização Andromeda do Meta Ads, como ela mudou o leilão de anúncios e o que fazer para manter performance com contingência e BMs de agência.",
+    date: "2026-04-14",
+    readTime: "7 min",
+    category: "Escala",
+    content: `## O que é a atualização Andromeda do Meta Ads?
+
+A Andromeda é a maior atualização no sistema de entrega de anúncios do Meta desde o início do Facebook Ads. Ela mudou fundamentalmente como o algoritmo decide quais anúncios mostrar, para quem e por quanto.
+
+### O que mudou com o Andromeda
+
+#### Novo sistema de ranking
+
+O Meta agora avalia os anúncios em um pool muito maior. Antes, seu anúncio competia com um grupo limitado; agora ele compete com **milhões** de outros anúncios simultaneamente.
+
+#### Menos controle manual
+
+Segmentações detalhadas perderam força. O algoritmo prefere audiências amplas (Advantage+) e otimiza sozinho. Anunciantes que insistem em segmentações manuais estreitas estão vendo performance pior.
+
+#### Criativos são mais importantes que nunca
+
+Com o Andromeda, o criativo se tornou o principal fator de performance. O algoritmo usa IA para analisar texto, imagem e vídeo do anúncio e decidir para quem mostrar.
+
+### Impacto na contingência
+
+A atualização Andromeda tem implicações diretas para quem roda contingência:
+
+#### 1. Contas novas demoram mais para otimizar
+
+O novo algoritmo precisa de mais dados para aprender. Contas de agência verificada, que já têm histórico, saem na frente.
+
+#### 2. Bloqueios custam mais caro
+
+Quando uma conta é bloqueada, você perde toda a "inteligência" que o Andromeda acumulou sobre seu público. A reposição rápida minimiza essa perda.
+
+#### 3. BMs de agência têm vantagem no novo leilão
+
+O Andromeda dá peso à "reputação" da conta no leilão. Contas de agência verificada têm melhor reputação e consequentemente melhores posições.
+
+### Como adaptar sua estratégia
+
+#### Use Advantage+ Shopping / App Campaigns
+
+O Andromeda funciona melhor com campanhas automatizadas. Teste Advantage+ e deixe o algoritmo trabalhar.
+
+#### Invista em volume de criativos
+
+Produza mais variações de criativos. O Andromeda testa e seleciona os melhores automaticamente.
+
+#### Audiências amplas (Broad Targeting)
+
+Pare de usar interesses específicos. Use audiências amplas e deixe o algoritmo encontrar os compradores.
+
+#### Mantenha contas saudáveis
+
+O Andromeda penaliza mais contas com histórico negativo. BMs de agência verificada começam com boa reputação.
+
+### O que os anunciantes estão dizendo
+
+No Reddit (r/FacebookAds), os relatos são consistentes:
+
+- *"Desde o Andromeda, Advantage+ está performando 2x melhor que campanhas manuais"*
+- *"Contas novas estão demorando o dobro para sair da fase de aprendizado"*
+- *"Quem tem conta de agência está vendo CPAs melhores desde a atualização"*
+
+### Conclusão
+
+O Andromeda mudou as regras do jogo no Meta Ads. Adaptação é necessária, e ter BMs de agência verificada se tornou ainda mais vantajoso para performance e estabilidade.
+
+**A AD Scale oferece contas de agência verificada prontas para performar no novo algoritmo.** Fale conosco pelo WhatsApp.`,
+  },
+  {
+    slug: "como-escalar-meta-ads-de-100-para-10000-por-dia",
+    title: "Como Escalar Meta Ads de R$100 para R$10.000/dia: Guia Passo a Passo",
+    description: "Aprenda o passo a passo para escalar suas campanhas no Meta Ads de R$100 para R$10.000/dia com segurança usando BMs de agência verificada e contingência.",
+    date: "2026-04-15",
+    readTime: "10 min",
+    category: "Escala",
+    content: `## O desafio de escalar no Meta Ads
+
+Escalar de R$100/dia para R$10.000/dia no Meta Ads não é simplesmente aumentar o orçamento. É uma mudança completa de operação que exige infraestrutura, estratégia e contingência profissional.
+
+### Fase 1: R$100 a R$500/dia — Validação
+
+Nesta fase, o objetivo é encontrar criativos e ofertas que convertem.
+
+- **Teste 3-5 criativos por semana** — varie formatos (vídeo, imagem, carrossel)
+- **Use CBO (Campaign Budget Optimization)** — deixe o Meta distribuir o orçamento
+- **Métricas-chave:** CPA, ROAS, CTR do link
+- **Regra:** só escale quando tiver ROAS > 2x por pelo menos 3 dias consecutivos
+
+### Fase 2: R$500 a R$2.000/dia — Expansão
+
+Aqui você já tem um criativo vencedor e precisa escalar sem perder performance.
+
+- **Aumente 20-30% a cada 3 dias** — nunca duplique o orçamento de uma vez
+- **Duplique campanhas vencedoras** — crie cópias e rode em paralelo
+- **Comece a pensar em contingência** — com R$2.000/dia, um bloqueio já dói financeiramente
+- **Diversifique públicos** — Lookalike 1%, 3%, 5% e Broad
+
+### Fase 3: R$2.000 a R$5.000/dia — Estrutura
+
+Nesta fase, a infraestrutura se torna tão importante quanto os criativos.
+
+- **BMs de agência verificada são essenciais** — limites de gasto pessoais não suportam esse volume
+- **Múltiplas contas de anúncio** — distribua o gasto entre 3-5 contas
+- **Contingência ativa** — tenha pelo menos 2 contas backup prontas
+- **Equipe de criativos** — você precisa de volume constante de novos criativos
+
+### Fase 4: R$5.000 a R$10.000/dia — Escala
+
+A escala real exige uma operação profissional completa.
+
+#### Infraestrutura necessária
+
+- **5-10 contas de anúncio ativas** — distribua o risco
+- **Múltiplas BMs de agência** — nunca dependa de uma única BM
+- **Reposição em minutos** — a contingência precisa ser instantânea
+- **Monitoramento 24/7** — identifique problemas antes que afetem o faturamento
+
+#### Estratégia de criativos
+
+- **20+ criativos novos por semana** — o Andromeda consome criativos rapidamente
+- **Variações de ângulo** — problema, solução, prova social, urgência
+- **Formatos variados** — Reels, Stories, Feed, vídeos longos
+
+#### Gestão financeira
+
+- **Fluxo de caixa sólido** — o Meta cobra antes de você receber
+- **Múltiplos cartões** — distribua o gasto para evitar limite de cartão
+- **Controle de ROAS diário** — monitore em tempo real
+
+### Erros comuns ao escalar
+
+1. **Escalar muito rápido** — mata a otimização do algoritmo
+2. **Depender de uma conta** — um bloqueio paralisa tudo
+3. **Ignorar criativos** — criativo que funcionou em R$500/dia pode não funcionar em R$5.000/dia
+4. **Não ter contingência** — o maior erro de todos
+5. **Não controlar o ROAS** — escalar prejuízo é prejuízo maior
+
+### O papel da contingência na escala
+
+Sem contingência, escalar é como construir um castelo de cartas. A qualquer momento, um bloqueio pode derrubar tudo. Com contingência profissional:
+
+- **Downtime próximo de zero** — reposição em minutos
+- **Limites altos desde o início** — sem esperar semanas para poder gastar
+- **Foco 100% em performance** — enquanto o fornecedor cuida da infraestrutura
+
+### Conclusão
+
+Escalar de R$100 para R$10.000/dia no Meta Ads é possível, mas exige planejamento, infraestrutura e contingência. Cada fase tem suas necessidades específicas, e tentar pular etapas geralmente resulta em bloqueios e prejuízo.
+
+**A AD Scale é sua parceira de escala.** BMs de agência verificada, reposição imediata e suporte dedicado. Fale conosco pelo WhatsApp.`,
+  },
+  {
+    slug: "conta-de-anuncio-restrita-como-resolver",
+    title: "Conta de Anúncio Restrita no Meta Ads: Causas, Soluções e Como Evitar",
+    description: "Sua conta de anúncio foi restrita no Meta Ads? Entenda as causas, como solicitar revisão, e aprenda a evitar restrições com BMs de agência verificada.",
+    date: "2026-04-16",
+    readTime: "7 min",
+    category: "Contas de Anúncio",
+    content: `## O que significa conta de anúncio restrita?
+
+Quando o Meta restringe uma conta de anúncio, ela é impedida de veicular anúncios. A restrição pode ser temporária ou permanente, e os motivos variam de violação de políticas a padrões de comportamento suspeitos.
+
+### Tipos de restrição
+
+#### Restrição temporária
+
+- Geralmente dura 24-72 horas
+- Causada por revisão automática ou volume incomum de edições
+- Resolve sozinha na maioria dos casos
+
+#### Restrição por violação de política
+
+- Requer revisão manual do Meta
+- Pode ser revertida se o anúncio não violou as regras de fato
+- Prazo de resposta: 2-14 dias
+
+#### Restrição permanente (ban)
+
+- A conta é desativada definitivamente
+- Geralmente associada a violações graves ou reincidência
+- Quase impossível de reverter
+
+### Causas mais comuns de restrição
+
+1. **Conteúdo proibido** — produtos regulados, armas, drogas, tabaco
+2. **Práticas enganosas** — promessas falsas, clickbait extremo
+3. **Landing pages problemáticas** — pop-ups agressivos, redirecionamentos, conteúdo diferente do anúncio
+4. **Pagamento recusado** — cartão expirado ou sem limite
+5. **Feedback negativo** — muitos usuários ocultando ou denunciando seus anúncios
+6. **Atividade suspeita** — logins de locais diferentes, muitas edições em pouco tempo
+7. **Perfil associado comprometido** — se o perfil admin foi desativado
+
+### Como solicitar revisão
+
+#### Passo 1: Identifique o motivo
+
+Acesse o Gerenciador de Anúncios e verifique a notificação específica da restrição.
+
+#### Passo 2: Corrija o problema
+
+Se identificou a causa, corrija antes de solicitar revisão (edite o anúncio, atualize a landing page, etc.)
+
+#### Passo 3: Solicite revisão
+
+Use o botão "Solicitar revisão" no Gerenciador de Anúncios ou acesse o Suporte do Meta diretamente.
+
+#### Passo 4: Aguarde (e ative a contingência)
+
+O prazo de revisão é imprevisível. Enquanto aguarda, ative suas contas de contingência.
+
+### Como evitar restrições
+
+- **Use BMs de agência verificada** — menor risco de bloqueio automático
+- **Siga as políticas à risca** — leia e releia as políticas de publicidade do Meta
+- **Monitore o feedback** — pause anúncios com feedback negativo alto
+- **Escale gradualmente** — evite mudanças bruscas de orçamento
+- **Mantenha landing pages em conformidade** — política de privacidade, termos de uso, disclaimers
+- **Diversifique contas** — não coloque todos os ovos na mesma cesta
+
+### A importância da contingência para contas restritas
+
+De acordo com relatos no r/FacebookAds, a maioria dos anunciantes que perdem faturamento por restrição **não tinha contingência**. Os que tinham:
+
+- **Migraram o gasto para contas backup em minutos**
+- **Mantiveram as campanhas rodando sem interrupção**
+- **Solicitaram revisão com calma, sem pressão financeira**
+
+### Conclusão
+
+Restrições de conta são parte do jogo no Meta Ads. Você não pode evitar todas, mas pode se preparar. Com BMs de agência verificada e contingência profissional, uma restrição é apenas um inconveniente — não uma catástrofe.
+
+**Na AD Scale, reposição imediata é padrão.** Conta restrita? Outra entra em operação em minutos. Fale conosco pelo WhatsApp.`,
+  },
+  {
+    slug: "advantage-plus-meta-ads-guia-completo",
+    title: "Advantage+ Meta Ads: Guia Completo para Campanhas Automatizadas em 2026",
+    description: "Guia completo do Advantage+ no Meta Ads. Aprenda a usar campanhas automatizadas, quando usar Advantage+ Shopping e como combinar com contingência profissional.",
+    date: "2026-04-17",
+    readTime: "8 min",
+    category: "Escala",
+    content: `## O que é Advantage+ no Meta Ads?
+
+Advantage+ é o conjunto de ferramentas de automação do Meta Ads que usa inteligência artificial para otimizar campanhas com mínima intervenção manual. Em 2026, se tornou praticamente obrigatório para quem quer escalar.
+
+### Tipos de Advantage+
+
+#### Advantage+ Shopping Campaigns (ASC)
+
+Campanhas otimizadas para e-commerce e vendas diretas. O Meta controla público, posicionamento e lances automaticamente.
+
+#### Advantage+ App Campaigns
+
+Focadas em instalação de apps e eventos in-app.
+
+#### Advantage+ Audience
+
+Substitui os antigos "interesses" e "lookalikes" com audiências geradas por IA.
+
+#### Advantage+ Placements
+
+O Meta decide automaticamente onde mostrar seus anúncios (Feed, Stories, Reels, etc.)
+
+#### Advantage+ Creative
+
+Otimizações automáticas no criativo: ajuste de brilho, corte, texto dinâmico, música de fundo.
+
+### Por que Advantage+ funciona melhor em 2026?
+
+Com a atualização Andromeda, o Meta melhorou drasticamente a capacidade de IA:
+
+- **Mais dados** — o algoritmo processa bilhões de sinais em tempo real
+- **Melhor predição** — a IA prevê conversões com mais precisão
+- **Otimização contínua** — o sistema ajusta em tempo real, 24/7
+- **Cross-platform** — otimiza entre Facebook, Instagram, Messenger e Audience Network
+
+### Como configurar Advantage+ Shopping
+
+1. **Acesse o Gerenciador de Anúncios** → Criar campanha
+2. **Selecione "Vendas"** como objetivo
+3. **Escolha "Advantage+ Shopping Campaign"**
+4. **Configure o orçamento** — comece com pelo menos R$500/dia para dados suficientes
+5. **Adicione criativos** — mínimo 5, ideal 10-20 variações
+6. **Defina o público existente** — clientes atuais vs. novos (recomendado: 30% existente, 70% novos)
+7. **Publique e monitore** — o algoritmo precisa de 3-7 dias para otimizar
+
+### Advantage+ e contingência: a combinação perfeita
+
+#### O problema
+
+Advantage+ precisa de dados para funcionar. Quando uma conta é bloqueada, toda a aprendizagem acumulada é perdida.
+
+#### A solução
+
+Com contingência profissional e BMs de agência verificada:
+
+- **Contas com histórico** — já possuem dados que aceleram a aprendizagem do Advantage+
+- **Reposição rápida** — nova conta entra com configuração similar, minimizando perda de dados
+- **Múltiplas contas em paralelo** — rode Advantage+ em várias contas para reduzir risco
+- **Pixels compartilhados** — mantenha os dados de conversão mesmo trocando de conta
+
+### Métricas para monitorar no Advantage+
+
+- **ROAS (Return on Ad Spend)** — principal métrica de performance
+- **CPA (Cost per Action)** — custo por conversão
+- **CPM (Cost per Mille)** — custo por mil impressões
+- **Frequency** — frequência de exibição (ideal: < 3 em 7 dias)
+- **Creative performance** — identifique quais criativos o algoritmo está priorizando
+
+### Erros comuns com Advantage+
+
+1. **Orçamento muito baixo** — Advantage+ precisa de volume para funcionar
+2. **Poucos criativos** — alimente o algoritmo com variedade
+3. **Editar durante aprendizado** — mudanças reiniciam a fase de aprendizado
+4. **Ignorar públicos existentes** — a segmentação existente/novos é crucial
+5. **Não ter contingência** — perder uma conta Advantage+ otimizada é extremamente custoso
+
+### Conclusão
+
+Advantage+ é o futuro (e o presente) do Meta Ads. Mas para funcionar bem, precisa de contas estáveis, com histórico e sem interrupções. Contingência profissional é o que garante que sua campanha Advantage+ nunca pare.
+
+**A AD Scale fornece BMs de agência verificada ideais para rodar Advantage+.** Contas com histórico, limites altos e reposição imediata. Fale conosco pelo WhatsApp.`,
+  },
 ];
