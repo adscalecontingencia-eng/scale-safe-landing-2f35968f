@@ -3,7 +3,7 @@ import DotGlobe from "./DotGlobe";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden w-full">
+    <section className="relative min-h-screen md:min-h-screen flex items-center overflow-hidden w-full">
       {/* Background effects */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,hsl(125_100%_45%/0.06),transparent_60%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,hsl(125_100%_45%/0.03),transparent_60%)]" />
@@ -78,12 +78,12 @@ const HeroSection = () => {
         {/* Mobile layout */}
         <div className="flex flex-col items-center md:hidden">
           {/* Globe on top - mobile */}
-          <div className="w-full flex justify-center mb-6 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
-            <DotGlobe size={280} />
+          <div className="w-full flex justify-center mb-4 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
+            <DotGlobe size={200} />
           </div>
 
           <div className="w-full text-center">
-            <div className="badge-pill mb-4 animate-fade-in-up mx-auto" style={{ animationDelay: "0.15s" }}>
+            <div className="badge-pill mb-3 animate-fade-in-up mx-auto" style={{ animationDelay: "0.15s" }}>
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
               Contingência Meta Ads
             </div>
@@ -92,12 +92,12 @@ const HeroSection = () => {
               O JOGO DO TRÁFEGO PAGO MUDOU
             </p>
 
-            <h1 className="font-display text-3xl font-bold leading-[1.1] mb-4 animate-fade-in-up" style={{ animationDelay: "0.25s" }}>
+            <h1 className="font-display text-2xl font-bold leading-[1.1] mb-3 animate-fade-in-up" style={{ animationDelay: "0.25s" }}>
               A INFRAESTRUTURA{" "}
               <span className="text-gradient">DECIDE QUEM ESCALA.</span>
             </h1>
 
-            <p className="text-muted-foreground text-base mb-6 leading-relaxed animate-fade-in-up px-2" style={{ animationDelay: "0.3s" }}>
+            <p className="text-muted-foreground text-sm mb-4 leading-relaxed animate-fade-in-up px-2" style={{ animationDelay: "0.3s" }}>
               Se você roda nutra ou infoprodutos no Meta e não tem uma contingência profissional, é questão de tempo para a sua estrutura ficar estagnada.
             </p>
 
