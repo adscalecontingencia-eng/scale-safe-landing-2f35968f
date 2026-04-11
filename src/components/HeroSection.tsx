@@ -97,7 +97,7 @@ const HeroSection = () => {
               <span className="text-gradient">DECIDE QUEM ESCALA.</span>
             </h1>
 
-            <p className="text-muted-foreground text-base mb-6 leading-relaxed animate-fade-in-up px-2" style={{ animationDelay: "0.3s" }}>
+            <p className="text-muted-foreground text-sm mb-4 leading-relaxed animate-fade-in-up px-2" style={{ animationDelay: "0.3s" }}>
               Se você roda nutra ou infoprodutos no Meta e não tem uma contingência profissional, é questão de tempo para a sua estrutura ficar estagnada.
             </p>
 
