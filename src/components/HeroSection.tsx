@@ -78,8 +78,8 @@ const HeroSection = () => {
         {/* Mobile layout */}
         <div className="flex flex-col items-center md:hidden">
           {/* Globe on top - mobile */}
-          <div className="w-full flex justify-center mb-6 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
-            <DotGlobe size={280} />
+          <div className="w-full flex justify-center mb-4 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
+            <DotGlobe size={200} />
           </div>
 
           <div className="w-full text-center">
