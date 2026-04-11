@@ -1,11 +1,13 @@
 import Logo from "./Logo";
+import { Link } from "react-router-dom";
 
 const navLinks = [
-  { href: "#", label: "Início" },
-  { href: "#solucao", label: "Solução" },
-  { href: "#como-funciona", label: "Como Funciona" },
-  { href: "#diferenciais", label: "Diferenciais" },
-  { href: "#faq", label: "FAQ" },
+  { href: "/", label: "Início" },
+  { href: "/#solucao", label: "Solução" },
+  { href: "/#como-funciona", label: "Como Funciona" },
+  { href: "/#diferenciais", label: "Diferenciais" },
+  { href: "/#faq", label: "FAQ" },
+  { href: "/blog", label: "Blog" },
 ];
 
 const FooterSection = () => {
