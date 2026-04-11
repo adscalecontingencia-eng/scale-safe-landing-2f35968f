@@ -70,7 +70,7 @@ const Navbar = () => {
 
       {mobileOpen && (
         <div className="md:hidden bg-card/95 backdrop-blur-xl border-t border-border/50 mt-2 mx-4 rounded-2xl p-6 space-y-4">
-          {navLinks.map((link) => (
+          {isHome && navLinks.map((link) => (
             <a
               key={link.label}
               href={link.href}
@@ -80,6 +80,13 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
+          <Link
+            to="/blog"
+            onClick={() => setMobileOpen(false)}
+            className="block text-foreground text-lg"
+          >
+            Blog
+          </Link>
           <a
             href="https://wa.me/message/LT3GZH6T7PTYB1?text=Ol%C3%A1%21%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20conting%C3%AAncia%20da%20AD%20Scale."
             target="_blank"
