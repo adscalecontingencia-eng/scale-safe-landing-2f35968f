@@ -32,7 +32,7 @@ const pains = [
 
 const PainPointsSection = () => {
   return (
-    <section className="section-padding">
+    <section id="problemas" className="section-padding" aria-label="Problemas comuns com contas de anúncio Meta Ads">
       <div className="container max-w-5xl text-center">
         {/* Badge */}
         <div className="badge-pill mx-auto mb-8">
